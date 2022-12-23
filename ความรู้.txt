@@ -1,0 +1,28 @@
+﻿crud ->
+Create
+insert into ชื่อตาราง(ชื่อฟิลด์)values(ค่าท่จับคู่กับฟิลด์)
+insert into tools (tls_name) values ('logo')
+insert inti tools values (null,'logo')
+insert into student values (null,'6414421006','john','wick',1,2),
+(null,'6414421006','clark','wick',1,2),
+(null,'6414421006','jack','Reacher',1,2),
+(null,'6414421006','jack','sparow',1,2),
+(null,'6414421006','jack','Reacher',1,2),
+
+Read
+select ชื่แชอฟิลด์ from ชื่อตาราง
+select * from tools where tls_name like"p%"
+select * from tools where tls_name like"+%"
+select ttl_name,lct_fname,lect_lname from lecturer join title on 
+lct_ttl_id=ttl_id joid name on lctname_id=ttl_id
+select ttl_name,std_sid,std_fname,std_lname'prg_name
+from student joid title on std_ttl_id=ttl_id
+joid program on std_prg_id=prg_id
+ 
+Update
+update name(ชื่อตาราง) set (ค่าที่ต้องการเปบี่ยน)values where(เงื่อนไขที่ต้องการเปลี่ยน)
+update tools set tls_name="lego" where tls_id=17
+update tools set tls_name="lego" where tls_name="lego"
+
+Delete 
+delate from tools where tls_name="lego"
